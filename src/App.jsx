@@ -9,9 +9,13 @@ import Tech from "./Components/InfoContainers/Tech";
 import Contact from "./Components/Contact/Contact";
 
 function App() {
+  function scrollToSection(section) {
+    const element = document.querySelector(`#${section}`);
+    element.scrollIntoView({ behavior: "smooth" });
+  }
   return (
     <div className="App">
-      <Nav />
+      <Nav scrollToSection={scrollToSection} />
       <Landing />
       <About />
       <Goals />

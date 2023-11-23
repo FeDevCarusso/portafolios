@@ -16,8 +16,8 @@
 }
 
 .aboutp {
-    width: 40%;
     color: var(--paragraph);
+    width: 40%;
 }
 
 .infotitle {
@@ -59,8 +59,7 @@
 
     .aboutp {
         width: 100%;
-        padding: 2em;
-        text-indent: 1em;
+        padding: 1em;
     }
 
     .aboutimgb {
