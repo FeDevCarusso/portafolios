@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes {
+    overflow: hidden;
+    display: flex;
+    background: url(../../assets/img/pattern.webp)  var(--main);
+
+
+}
+
+.leftbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 93vh;
+    padding: 3em;
+    opacity: .8;
+    background-color: var(--main);
+
+}
+
+
+
+.leftbox>p {
+    color: var(--headline);
+    font-family: var(--extraboldfont);
+    font-size: 2.2em;
+    text-justify: newspaper;
+    max-width: 60%;
+}
+
+.rightbox {
+    width: 80%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    background-color: var(--background);
+
+}
+
+.rightbox > h3 {
+    color: var(--paragraph);
+    margin-bottom: 1em;
+}
+
+.rightbox > h2 {
+    color: var(--tertiary);
+    margin-top: 1em;
+}
+
+.rightbox > h4 {
+    color: var(--secondary);
+    margin-top: 1em;
+}
+
+.rightbox>img {
+
+    overflow: hidden;
+    border-radius: 50%;
+    width: 180px;
+}
+
+.division {
+    /* background: #fff; */
+    background: var(--tertiary);
+    height: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .boxes {
+        flex-wrap: wrap;
+    }
+
+    .rightbox {
+        align-items: center;
+        width: 100%; 
+        border-top: 5px solid var(--tertiary);
+
+    }
+
+    .leftbox {
+        padding: 1em; 
+    }
+}

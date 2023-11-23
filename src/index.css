@@ -1,0 +1,45 @@
+/* Fonts */
+@font-face {
+  font-family: "jb-thin";
+  src: url(./assets/fonts/thin.woff2);
+}
+
+@font-face {
+  font-family: "jb-bold";
+  src: url(./assets/fonts/bold.woff2);
+}
+
+@font-face {
+  font-family: "jb-extra";
+  src: url(./assets/fonts/extrabold.woff2);
+}
+
+/* Variables */
+:root {
+  --thinfont: 'jb-thin';
+  --boldfont: 'jb-bold';
+  --extraboldfont: 'jb-extra';
+}
+
+/* Colors */
+:root {
+  --background: #16161a;
+  --paragraph: #94a1b2;
+  --highlight: #7f5af0;
+  --tertiary: #2cb67d;
+  --main: #6b42e9;
+  --headline: #fffffe;
+  --secondary: #72757e;
+  --verydarkgray: #000000;
+}
+
+/* Global Styles */
+* {
+  font-family: var(--thinfont);
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  overflow: auto;
+}
