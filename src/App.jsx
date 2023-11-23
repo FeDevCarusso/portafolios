@@ -6,6 +6,7 @@ import About from "./Components/InfoContainers/About";
 import Goals from "./Components/InfoContainers/Goals";
 import Skills from "./Components/InfoContainers/Habilities";
 import Tech from "./Components/InfoContainers/Tech";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Goals />
       <Skills />
       <Tech />
+      <Contact />
     </div>
   );
 }
