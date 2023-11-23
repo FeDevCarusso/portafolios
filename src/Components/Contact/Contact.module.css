@@ -30,6 +30,21 @@
     transition: .3s;
 
 }
-.contactList li > img:hover {
+
+.contactList li>img:hover {
     width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .contactList {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+        padding: 1em;
+    }
+
+    .contactList li {
+        flex-basis: calc(48% - 2em); 
+        margin: 1em; 
+    }
 }

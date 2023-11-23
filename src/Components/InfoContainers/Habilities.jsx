@@ -12,7 +12,7 @@ const Skills = ({}) => {
           Tengo facilidad para adaptarme a cualquier entorno e interactuar con
           mis compañeros. Trabajo y me desarrollo bastante bien bajo presión,
           organizo las prioridades y trabajo en consecuencia para abordar
-          cualquier problemática Agilidad en el aprendizaje en cualquier área,
+          cualquier problemática, Agilidad en el aprendizaje en cualquier área,
           desde idiomas, hasta tecnologías. Mi <strong>inglés</strong> es
           bastante básico.
         </p>

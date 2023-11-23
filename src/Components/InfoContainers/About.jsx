@@ -12,8 +12,8 @@ const About = ({}) => {
           Soy de Quilmes, Argentina,tengo 24 años. Actualmente estoy terminando
           el curso de Desarrollo Web Full-Stack de Henry. Me gusta la
           programación en general y voy a estudiar ingeniería informática en la
-          UNAJ, para adquirir los conocimientos necesa_ rios que me permitan
-          evolucionar como prpogramador
+          UNAJ, para adquirir los conocimientos necesarios que me permitan
+          evolucionar como programador
         </p>
       </div>
     </div>
