@@ -9,7 +9,7 @@ const Skills = ({}) => {
       <div className={styles.textcontainer}>
         <img className={styles.aboutimg} src={image} alt="aboutme" />
         <p className={styles.aboutp}>
-          Tengo faciliodad para adaptarme a cualquier entorno e interactuar con
+          Tengo facilidad para adaptarme a cualquier entorno e interactuar con
           mis compañeros. Trabajo y me desarrollo bastante bien bajo presión,
           organizo las prioridades y trabajo en consecuencia para abordar
           cualquier problemática Agilidad en el aprendizaje en cualquier área,

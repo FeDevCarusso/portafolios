@@ -24,8 +24,8 @@
     margin: 2em 0;
     color: white;
     text-decoration: underline;
-    text-shadow: 1px 1px var(--tertiary);
 }
+
 
 .textcontainer {
     display: flex;
@@ -37,6 +37,12 @@
 .containerb {
     background-color: var(--verydarkgray);
 }
+
+.containerc {
+    background-color: var(--verydarkgray);
+
+}
+
 
 .aboutimgb {
     overflow: auto;

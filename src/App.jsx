@@ -5,6 +5,7 @@ import Landing from "./Components/Landing/Landing";
 import About from "./Components/InfoContainers/About";
 import Goals from "./Components/InfoContainers/Goals";
 import Skills from "./Components/InfoContainers/Habilities";
+import Tech from "./Components/InfoContainers/Tech";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Goals />
       <Skills />
+      <Tech />
     </div>
   );
 }
