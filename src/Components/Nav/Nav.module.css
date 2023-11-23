@@ -13,13 +13,20 @@
     list-style: none;
     justify-content: center;
     align-items: center;
+    margin: 5px;
+
 }
 
 .li {
-    color: var(--paragraph);
-    padding: 10px;
-    margin: 5px;
     border-radius: 10px;
+  
+}
+
+.li a {
+    display: inline-block;
+    color: var(--paragraph);
+    text-decoration: none;
+    padding: 10px;
     transition: .3s;
 }
 

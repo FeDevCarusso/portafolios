@@ -4,7 +4,7 @@ import image from "../../assets/img/aboutme.png";
 
 const About = ({}) => {
   return (
-    <div className={styles.container}>
+    <div id="section1" className={styles.container}>
       <h2 className={styles.infotitle}>Sobre mi</h2>
       <div className={styles.textcontainer}>
         <img className={styles.aboutimg} src={image} alt="aboutme" />

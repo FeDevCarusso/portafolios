@@ -35,6 +35,29 @@
     width: 100px;
 }
 
+.contactList li a {
+    display: flex;
+    flex-direction: column;
+}
+
+.float {
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: auto;
+    max-width: 35vw;
+    bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 5px 1em;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.466);
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
     .contactList {
         display: flex;
@@ -47,4 +70,7 @@
         flex-basis: calc(48% - 2em); 
         margin: 1em; 
     }
+    .float {
+        max-width: 80vw;
+        }
 }
