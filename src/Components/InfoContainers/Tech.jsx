@@ -57,7 +57,7 @@ const Tech = () => {
   ];
 
   return (
-    <div id="section4" className={styles.containerb + " " + styles.containerc}>
+    <div id="tech" className={styles.containerb + " " + styles.containerc}>
       <h2 style={{ textAlign: "center" }} className={styles.infotitle}>
         Tecnologías
       </h2>

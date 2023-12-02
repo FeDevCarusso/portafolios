@@ -4,7 +4,7 @@ import image from "../../assets/img/skills.png";
 
 const Skills = ({}) => {
   return (
-    <div id="section3" className={styles.container}>
+    <div id="skills" className={styles.container}>
       <h2 className={styles.infotitle}>Mis habilidades</h2>
       <div className={styles.textcontainer}>
         <img className={styles.aboutimg} src={image} alt="aboutme" />

@@ -4,7 +4,7 @@ import image from "../../assets/img/goals.png";
 
 const Goals = () => {
   return (
-    <div id="section2" className={styles.containerb + " " + styles.container}>
+    <div id="goals" className={styles.containerb + " " + styles.container}>
       <h2 className={styles.infotitle}>Objetivos</h2>
       <div className={styles.textcontainer}>
         <p className={styles.aboutp}>
