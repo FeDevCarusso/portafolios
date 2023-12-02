@@ -18,9 +18,7 @@ const Projects = () => {
       <div className={styles.cardContainer}>
         {Array.isArray(projectsData) &&
           projectsData?.map((pd, index) => (
-            <>
               <ProjectCard key={index} cardData={pd} />
-            </>
           ))}
       </div>
     </div>
