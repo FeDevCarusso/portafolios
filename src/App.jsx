@@ -7,9 +7,11 @@ import Goals from "./Components/InfoContainers/Goals";
 import Skills from "./Components/InfoContainers/Habilities";
 import Tech from "./Components/InfoContainers/Tech";
 import Contact from "./Components/Contact/Contact";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   function scrollToSection(section) {
+    console.log(section, "<---");
     const element = document.querySelector(`#${section}`);
     element.scrollIntoView({ behavior: "smooth" });
   }
@@ -21,6 +23,7 @@ function App() {
       <Goals />
       <Skills />
       <Tech />
+      <Projects />
       <Contact />
     </div>
   );

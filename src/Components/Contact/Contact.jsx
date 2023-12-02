@@ -29,7 +29,7 @@ const Contact = () => {
     }, 3000);
   }
   return (
-    <div id="section5" className={styles.container}>
+    <div id="contact" className={styles.container}>
       <h2 className={styles.title}>Contactame!</h2>
       <ul className={styles.contactList}>
         <li>

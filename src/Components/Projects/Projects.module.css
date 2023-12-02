@@ -1,0 +1,50 @@
+.container {
+    padding: 30px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: calc(40% - 10px);
+    background-color: #555;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+.card a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.cardTitle {
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.cardImage {
+    border-radius: 10px;
+
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        width: 100%;
+    }
+}

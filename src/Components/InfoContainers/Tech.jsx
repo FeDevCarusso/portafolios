@@ -57,7 +57,7 @@ const Tech = () => {
   ];
 
   return (
-    <div id="section4" className={styles.containerb + " " + styles.containerc}>
+    <div id="tech" className={styles.containerb + " " + styles.containerc}>
       <h2 style={{ textAlign: "center" }} className={styles.infotitle}>
         Tecnologías
       </h2>
@@ -65,7 +65,6 @@ const Tech = () => {
         {techSkills.map(({ name, icon, level, link }) => (
           <li key={name} className={styles2.li}>
             <a
-              target="_blank"
               style={{
                 display: "flex",
                 flexDirection: "column",

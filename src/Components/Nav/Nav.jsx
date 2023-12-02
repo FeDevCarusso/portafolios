@@ -9,27 +9,32 @@ const Nav = ({ scrollToSection }) => {
       <nav className={styles.nav}>
         <ul className={styles.ul}>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("section1")} href="#section1">
+            <a onClick={() => scrollToSection("about")} href="#about">
               Sobre mi
             </a>
           </li>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("section2")} href="#section2">
+            <a onClick={() => scrollToSection("goals")} href="#goals">
               Objetivos
             </a>
           </li>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("section3")} href="#section3">
+            <a onClick={() => scrollToSection("skills")} href="#skills">
               Habilidades
             </a>
           </li>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("section4")} href="#section4">
+            <a onClick={() => scrollToSection("tech")} href="#tech">
               Tecnologías
             </a>
           </li>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("section5")} href="#section5">
+            <a onClick={() => scrollToSection("projects")} href="#projects">
+              Proyectos
+            </a>
+          </li>
+          <li className={styles.li}>
+            <a onClick={() => scrollToSection("contact")} href="#contact">
               Contacto
             </a>
           </li>
