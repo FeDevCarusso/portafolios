@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Projects.module.css";
 import ProjectCard from "./ProjectCard";
-import trendyThumb from "../../assets/img/Trendy.jpg";
+import trendyThumb from "../../assets/img/trendy.jpg";
 
 const projectsData = [
   {
