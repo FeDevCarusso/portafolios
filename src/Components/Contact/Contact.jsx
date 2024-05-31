@@ -2,11 +2,9 @@
 import React, { useState } from "react";
 import linkedin from "../../assets/img/linkedin.png";
 import github from "../../assets/img/github.png";
-import gmail from "../../assets/img/gmail.png";
-import henry from "../../assets/img/henry.jpg";
 import whatsapp from "../../assets/img/whatsapp.png";
-import instagram from "../../assets/img/instagram.png";
-import styles from "./Contact.module.css"; // Importa tu módulo de estilos CSS
+import cv from "../../assets/img/cv.png";
+import styles from "./Contact.module.css";
 
 const Contact = () => {
   const [floatText, setFloatText] = useState("");
@@ -41,37 +39,14 @@ const Contact = () => {
             <span>LinkedIn</span>
           </a>
         </li>
+
         <li>
           <a href="https://github.com/FedeCarusso" target="_blank">
             <img src={github} alt="GitHub" />
             <span>GitHub</span>
           </a>
         </li>
-        <li>
-          <img
-            onClick={() => {
-              copyClipboard(
-                "developer.basilorien@gmail.com",
-                "Mail copiado al portapapeles."
-              );
-              showMessage();
-            }}
-            src={gmail}
-            alt="Gmail"
-          />
-          <span>Gmail</span>
-        </li>
-        <li>
-          <img
-            onClick={() => {
-              copyClipboard("Proximamente...", "Proximamente.");
-              showMessage();
-            }}
-            src={henry}
-            alt="Henry"
-          />
-          <span>Henry</span>
-        </li>
+
         <li>
           <a
             target="_blank"
@@ -81,18 +56,18 @@ const Contact = () => {
             <span>WhatsApp</span>
           </a>
         </li>
+
         <li>
-          <img
-            onClick={() => {
-              copyClipboard("Proximamente...", "Proximamente.");
-              showMessage();
-            }}
-            src={instagram}
-            alt="Instagram"
-          />
-          <span>Instagram</span>
+          <a
+            target="_blank"
+            href="https://docs.google.com/presentation/d/1MzN0r3YGWxmCl44C5PjrV1D6sJJd1RCcqDkxzBk5VSU/edit?usp=sharing"
+          >
+            <img src={cv} alt="WhatsApp" />
+            <span>Curriculum</span>
+          </a>
         </li>
       </ul>
+
       <div style={{ backgroundColor: "#16161a" }}>
         <h3
           style={{

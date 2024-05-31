@@ -1,76 +1,79 @@
 .container {
-    background-color: white;
+  background-color: white;
 }
 
 .title {
-    text-align: center;
-    color: black;
-    margin: 3em 0;
+  text-align: center;
+  color: black;
+  margin: 3em 0;
 }
 
 .contactList {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .contactList li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactList img {
-    width: 80px;
-    height: auto;
-    margin-bottom: 10px;
-    transition: .3s;
-
+  width: 80px;
+  margin-bottom: 10px;
+  transition: 0.3s;
 }
 
-.contactList li>img:hover {
-    width: 100px;
+.contactList li > img:hover,
+.contactList li a > img:hover {
+  width: 100px;
 }
 
 .contactList li a {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
 .float {
-    color: white;
-    position: fixed;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: auto;
-    max-width: 35vw;
-    bottom: 100px;
-    background-color: rgba(0, 0, 0, 0.74);
-    padding: 5px 1em;
-    border-radius: 15px;
-    box-shadow: 0 0 5px rgba(128, 128, 128, 0.466);
-    transition: opacity 0.5s ease-in-out;
-    opacity: 0;
-    text-align: center;
+  color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: auto;
+  max-width: 35vw;
+  bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 5px 1em;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.466);
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-    .contactList {
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: space-between;
-        padding: 1em;
-    }
+  .contactList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+  }
 
-    .contactList li {
-        flex-basis: calc(48% - 2em); 
-        margin: 1em; 
-    }
-    .float {
-        max-width: 80vw;
-        }
+  .contactList li {
+    flex-basis: calc(48% - 2em);
+    margin: 1em;
+  }
+  .float {
+    max-width: 80vw;
+  }
 }

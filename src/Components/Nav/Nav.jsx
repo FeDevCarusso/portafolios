@@ -1,13 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Nav.module.css";
+import { FiAlignJustify } from "react-icons/fi";
 
 const Nav = ({ scrollToSection }) => {
-  //
+  const [show, setShow] = useState(false);
+  const [windowWidth, setInnerWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const updateWidth = () => {
+      let width = window.innerWidth;
+      setInnerWidth(width);
+    };
+    window.addEventListener("resize", updateWidth);
+
+    return () => {
+      window.removeEventListener("resize", updateWidth);
+    };
+  }, [windowWidth]);
 
   return (
     <div className={styles.container}>
       <nav className={styles.nav}>
-        <ul className={styles.ul}>
+        <ul
+          style={{ transition: "1s", left: show ? "0" : "-110%" }}
+          className={styles.ul}
+        >
+          <li
+            style={{ display: windowWidth <= 768 ? "flex" : "none" }}
+            className={styles.showMenu}
+          >
+            <button onClick={() => setShow(!show)}>
+              <FiAlignJustify size={32} color="white" />
+            </button>
+          </li>
           <li className={styles.li}>
             <a onClick={() => scrollToSection("about")} href="#about">
               Sobre mi

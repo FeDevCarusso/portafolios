@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./Landing.module.css";
-
-const profileImg =
-  "https://media.licdn.com/dms/image/D4E03AQEvc4Jff4IZHg/profile-displayphoto-shrink_800_800/0/1684081964257?e=2147483647&v=beta&t=xXlg7nVAhXD077uLHKKetmtOdB5mrkYowGsh6VO0q7Y";
+import profileImg from '../../assets/img/profile.jpg'
 
 const Landing = () => {
   return (
