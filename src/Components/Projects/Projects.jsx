@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./Projects.module.css";
 import ProjectCard from "./ProjectCard";
-import trendyThumb from "../../assets/img/trendy.jpg";
+import trendyThumb from "../../assets/img/project_thubms/trendy.jpg";
 
 const projectsData = [
   {
     title: "Trendy",
     image: trendyThumb,
     url: "https://trendy-web-lemon.vercel.app/",
+    description: "Mi proyecto final de Henry"
   },
 ];
 

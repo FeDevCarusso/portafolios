@@ -11,6 +11,7 @@ const ProjectCard = ({ cardData }) => {
           alt={`${cardData?.title}_img`}
         />
       </a>
+      <p className={styles.description}>{cardData?.description}</p>
     </div>
   );
 };
