@@ -4,10 +4,6 @@
   border-bottom: 1px solid var(--tertiary);
 }
 
-.nav {
-  /* border-bottom: 1px solid var(--tertiary) */
-}
-
 .ul {
   transition: 0.3s;
 
@@ -36,8 +32,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .nav {
-  }
   .ul {
     position: fixed;
     width: 100vw;
