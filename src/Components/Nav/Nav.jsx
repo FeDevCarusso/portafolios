@@ -18,11 +18,16 @@ const Nav = ({ scrollToSection }) => {
     };
   }, [windowWidth]);
 
+  const handleClickLink = (to) => {
+    scrollToSection(to);
+    setShow(false);
+  };
+
   return (
     <div className={styles.container}>
       <nav className={styles.nav}>
         <ul
-          style={{ transition: "1s", left: show ? "0" : "-110%" }}
+          style={{ transition: ".3s", left: show ? "0" : "-110%" }}
           className={styles.ul}
         >
           <li
@@ -34,32 +39,32 @@ const Nav = ({ scrollToSection }) => {
             </button>
           </li>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("about")} href="#about">
+            <a onClick={() => handleClickLink("about")} href="#about">
               Sobre mi
             </a>
           </li>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("goals")} href="#goals">
+            <a onClick={() => handleClickLink("goals")} href="#goals">
               Objetivos
             </a>
           </li>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("skills")} href="#skills">
+            <a onClick={() => handleClickLink("skills")} href="#skills">
               Habilidades
             </a>
           </li>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("tech")} href="#tech">
+            <a onClick={() => handleClickLink("tech")} href="#tech">
               Tecnologías
             </a>
           </li>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("projects")} href="#projects">
+            <a onClick={() => handleClickLink("projects")} href="#projects">
               Proyectos
             </a>
           </li>
           <li className={styles.li}>
-            <a onClick={() => scrollToSection("contact")} href="#contact">
+            <a onClick={() => handleClickLink("contact")} href="#contact">
               Contacto
             </a>
           </li>
