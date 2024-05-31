@@ -8,12 +8,11 @@ const Goals = () => {
       <h2 className={styles.infotitle}>Objetivos</h2>
       <div className={styles.textcontainer}>
         <p className={styles.aboutp}>
-          Entre mis principales objetivos se encuentran aprender y dominar
-          Python, para tener mas herramientas a la hora de programar, mas que
-          nada para el back, mejorar y adquirir mas conocimientos de SQL, ya
-          actualmente mis habilidades son muy básicas y otro de los pilares
-          fundamentales en mi meta como desarrollador es aprender y tener un
-          conocimiento robusto del idioma inglés.
+          Entre mis principales objetivos se encuentran perfeccionar mis
+          habilidades en Python y CSS, para tener las mejores capacidades a la
+          hora de programar, y otro de los pilares fundamentales en mi meta como
+          desarrollador es aprender y tener un conocimiento robusto del idioma
+          inglés.
         </p>
         <img
           className={styles.aboutimg + " " + styles.aboutimgb}

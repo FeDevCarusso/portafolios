@@ -9,11 +9,11 @@ const About = ({}) => {
       <div className={styles.textcontainer}>
         <img className={styles.aboutimg} src={image} alt="aboutme" />
         <p className={styles.aboutp}>
-          Soy de Quilmes, Argentina,tengo 24 años. Actualmente estoy terminando
-          el curso de Desarrollo Web Full-Stack de Henry. Me gusta la
-          programación en general y voy a estudiar ingeniería informática en la
-          UNAJ, para adquirir los conocimientos necesarios que me permitan
-          evolucionar como programador
+          Soy de Quilmes, Argentina,tengo 24 años. Completé con éxito los cursos
+          de Soy Henry (Full-Stack) y Soy Dalto (JavaScript, Python, CSS). Me
+          gusta y me estoy preparando para dar un cambio radical en mi vida,
+          estudiando para el ingreso a la universidad, para adquirir los
+          conocimientos necesarios que me permitan evolucionar como programador
         </p>
       </div>
     </div>
